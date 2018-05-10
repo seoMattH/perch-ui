@@ -1,0 +1,150 @@
+@charset utf-8; 
+.main-panel{
+    background-color: #f8f8f8;
+}
+.topbar.user_theme_dark{
+     background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-repeat: repeat;
+    background-size: 40px;
+}
+.topbar svg{
+    fill:#b1b1b1;
+}
+.topbar .selected svg{
+    fill:#f8f8f8;
+}
+.topbar a:hover .selected svg{
+     color: #f8f8f8;
+}
+.topbar a{
+    color: #b1b1b1;
+}
+.topbar a:hover{
+    color: #e0e0e0;
+}
+.topbar a:focus{
+    color: #e0e0e0;
+}
+.topbar a:hover svg{
+    fill: #e0e0e0;
+}
+.topbar a:focus svg {
+    fill: #e0e0e0;
+}
+.utilnav .logout, .utilnav a.logout:focus {
+    background-color: #b1b1b1;
+}
+.utilnav .logout:hover {
+    background-color: #e0e0e0;
+    color: #848585;
+}
+.topbar.user_theme_dark a:hover{
+    color: #848585;
+}
+.sidebar{
+    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-repeat: repeat;
+}
+.sidebar-back a{
+    color:#f8f8f8;
+}
+.sidebar-back a:hover, .sidebar-back a:focus {
+    border-bottom: 1px solid #b1b1b1;
+}
+.sidebar h2, .sidebar h3{
+    color:#b1b1b1;
+}
+.sidebar-back svg {
+    fill: #f8f8f8;
+}
+.sidebar li a{
+    color:#e0e0e0;
+}
+.sidebar li a:hover {
+    color: #b1b1b1;
+}
+.sidebar .selected {
+    color: #f8f8f8;
+    font-weight: 600;
+}
+.sidebar .badge {
+    background-color: #0f76a5;
+    color: #f8f8f8;
+}
+.smartbar {
+    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-repeat: repeat;
+    border: 1px solid #e9eaea;
+    margin: 12px 24px 12px 24px;
+}
+.smartbar .tab-active {
+    border-bottom: 1px solid #e0e0e0;
+}
+.breadcrumb.tab-active {
+    background-color: #e0e0e0;
+}
+.smartbar li a.tab-active, .smartbar li button.tab-active {
+    background-color: #e0e0e0;
+}
+.smartbar li {
+    border-right: 1px solid #e0e0e0;
+}
+.smartbar li a, .smartbar li button {
+    color: #848585;
+}
+.smartbar li a:hover, .smartbar li button:hover, .smartbar li:hover a, .smartbar li:hover button {
+    color: #b1b1b1;
+}
+.smartbar li .breadcrumb.tab-active a:last-child {
+    background-color: #e0e0e0;
+}
+.smartbar li .breadcrumb a:last-child {
+    color: #848585;
+}
+.smartbar svg {
+    fill: #848585;
+}
+h2.divider {
+    background-color: #b1b1b1;
+}
+.form-simple label, .form-simple .fieldset-inner .legend-wrap, .repeater-heading {
+    font-weight: 600;
+}
+.submit-bar .button {
+    background-color: #0f76a5;
+}
+.button {
+    background-color: #0f76a5;
+}
+.title-panel .button, .button.to-the-top, .title-panel .button.button-icon {
+    background-color: #0f76a5;
+    color: #f8f8f8;
+}
+.button.button-simple {
+    color: #f8f8f8;
+}
+.inline-help {
+    text-transform: lowercase;
+    margin-left: 1%;
+}
+.widget header, .widget h3{
+    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-repeat: repeat;
+    color:#f8f8f8;
+}
+.pagination-number.pagination-current {
+    background-color: #848585;
+    border-radius: 2px;
+}
+.pagination .disabled {
+    background-color: #e0e0e0;
+}
+table th{
+   background-color: #b1b1b1; 
+}
+.button.action-info, .button.button-icon.action-info, .button.button-small.action-info{
+   background-color: #0f76a5; 
+}
+.button.action-info:hover, .button.action-info.active, .button.button-icon.action-info:hover, .button.button-icon.action-info.active, .button.button-small.action-info:hover, .button.button-small.action-info.active {
+    background-color: #848585;
+}
