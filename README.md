@@ -3,6 +3,12 @@ Perch UI Customizations
 
 This project allows a Perch CMS user to change the default dashboard to a different look and feel.
 
+<img src="https://www.coloradoseodesign.com/_images/ui-dashboard.png" alt="Dashboard"/>
+
+<img src="https://www.coloradoseodesign.com/_images/ui-pages.png" alt="Pages"/>
+
+<img src="https://www.coloradoseodesign.com/_images/ui-settings.png" alt="Settings"/>
+
 In order for this project to work you will need to follow these instructions
 
 1) Copy file carbonFiber.png from this folder and add it to your images directory.  I add it it to the following location in my project /_images/_ui/ .  If you have a different naming convention for you images folder outside of Perch then you will need to change the background image url in the CSS file newui.css .  I utilize this background in 4 different locations in the CSS file so you will need to change the location for all 4 places
