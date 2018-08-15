@@ -16,6 +16,9 @@
 .topbar.user_theme_dark a:hover{
     color: #ffb300;
 }
+.topbar.user_theme_dark a.selected{
+    color: #ffb300;
+}
 .topbar svg{
     fill:#b1b1b1;
 }
@@ -49,7 +52,7 @@
     color: #848585;
 }
 .sidebar{
-    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-image: url(/_images/_ui/carbonFiber.png);
     background-repeat: repeat;
 }
 .sidebar-back a{
@@ -60,7 +63,7 @@
     color: #ffb300;
 }
 .sidebar h2, .sidebar h3{
-    color:#b1b1b1;
+    color:white;
 }
 .sidebar-back svg {
     fill: #f8f8f8;
@@ -206,4 +209,8 @@ table a.edit:hover{
 }
 .block-wrap .block-add-bar a:hover{
     background-color: #0f76a5;
+}
+.topbar.user_theme_dark .selected svg, 
+.topbar.user_theme_dark .selected:hover svg{
+    fill:#ffb300;
 }
