@@ -3,15 +3,24 @@
     background-color: #f8f8f8;
 }
 .topbar.user_theme_dark{
-     background-image: url(../../../../_images/_ui/carbonFiber.png);
+     background-image: url(/_images/_ui/carbonFiber.png);
     background-repeat: repeat;
     background-size: 40px;
+}
+.topbar.user_theme_dark svg{
+    fill:white;
+}
+.topbar.user_theme_dark a:hover svg{
+    fill: #ffb300;
+}
+.topbar.user_theme_dark a:hover{
+    color: #ffb300;
 }
 .topbar svg{
     fill:#b1b1b1;
 }
 .topbar .selected svg{
-    fill:#f8f8f8;
+    fill:#ffb300;
 }
 .topbar a:hover .selected svg{
      color: #f8f8f8;
@@ -31,14 +40,12 @@
 .topbar a:focus svg {
     fill: #e0e0e0;
 }
-.utilnav .logout, .utilnav a.logout:focus {
-    background-color: #b1b1b1;
+.user_theme_dark .utilnav .logout {
+    background-color: #0f76a5;
+    color: #fff;
 }
 .utilnav .logout:hover {
-    background-color: #e0e0e0;
-    color: #848585;
-}
-.topbar.user_theme_dark a:hover{
+    background-color: #ffffff;
     color: #848585;
 }
 .sidebar{
@@ -49,7 +56,8 @@
     color:#f8f8f8;
 }
 .sidebar-back a:hover, .sidebar-back a:focus {
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #ffb300;
+    color: #ffb300;
 }
 .sidebar h2, .sidebar h3{
     color:#b1b1b1;
@@ -61,18 +69,35 @@
     color:#e0e0e0;
 }
 .sidebar li a:hover {
-    color: #b1b1b1;
+    color: #ffb300;
 }
 .sidebar .selected {
-    color: #f8f8f8;
+    color: #ffb300;
     font-weight: 600;
 }
 .sidebar .badge {
     background-color: #0f76a5;
     color: #f8f8f8;
 }
+.smartbar li {
+    border-right: 1px solid #e0e0e0;
+}
+.smartbar li a, 
+.smartbar li a svg,
+.smartbar li button {
+    color: white;
+    fill: white;
+}
+.smartbar li a:hover, 
+.smartbar li a:hover svg,
+.smartbar li button:hover, 
+.smartbar li:hover a, 
+.smartbar li:hover button {
+    color:#ffb300;
+    fill:#ffb300;
+}
 .smartbar {
-    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-image: url(/_images/_ui/carbonFiber.png);
     background-repeat: repeat;
     border: 1px solid #e9eaea;
     margin: 12px 24px 12px 24px;
@@ -83,22 +108,18 @@
 .breadcrumb.tab-active {
     background-color: #e0e0e0;
 }
-.smartbar li a.tab-active, .smartbar li button.tab-active {
+.smartbar li a.tab-active, 
+.smartbar li button.tab-active,
+.smartbar li a.tab-active svg{
+    background-color: #e0e0e0;
+    color: #FF8100;
+    fill: #FF8100;
+}
+.smartbar li .breadcrumb.tab-active a:last-child{
     background-color: #e0e0e0;
 }
-.smartbar li {
-    border-right: 1px solid #e0e0e0;
-}
-.smartbar li a, .smartbar li button {
-    color: #848585;
-}
-.smartbar li a:hover, .smartbar li button:hover, .smartbar li:hover a, .smartbar li:hover button {
-    color: #b1b1b1;
-}
-.smartbar li .breadcrumb.tab-active a:last-child {
-    background-color: #e0e0e0;
-}
-.smartbar li .breadcrumb a:last-child {
+.smartbar li .breadcrumb a:last-child,
+.smartbar li .breadcrumb a:first-child{
     color: #848585;
 }
 .smartbar svg {
@@ -128,7 +149,7 @@ h2.divider {
     margin-left: 1%;
 }
 .widget header, .widget h3{
-    background-image: url(../../../../_images/_ui/carbonFiber.png);
+    background-image: url(/_images/_ui/carbonFiber.png);
     background-repeat: repeat;
     color:#f8f8f8;
 }
@@ -141,10 +162,48 @@ h2.divider {
 }
 table th{
    background-color: #b1b1b1; 
+    color:black;
 }
 .button.action-info, .button.button-icon.action-info, .button.button-small.action-info{
    background-color: #0f76a5; 
 }
 .button.action-info:hover, .button.action-info.active, .button.button-icon.action-info:hover, .button.button-icon.action-info.active, .button.button-small.action-info:hover, .button.button-small.action-info.active {
     background-color: #848585;
+}
+.widget a:hover, .widget a:active {
+    border-bottom: 1px solid #FF8100;
+    color: #FF8100;
+}
+.button.button-small{
+    background: #efefef; 
+}
+table a:hover .primary,
+table a.primary:hover,
+table a.edit:hover{
+    color:#FF8100;
+}
+.divider-toggle svg{
+    fill: #0f76a5;
+}
+.divider {
+    color: white;
+}
+.block-item .rm svg{
+    fill: red;
+}
+#btnUndo,
+#btnUndo svg{
+    color:white;
+    fill:white;
+}
+#btnUndo:hover,
+#btnUndo:hover svg{
+    color:#ffb300;
+    fill:#ffb300;
+}
+.block-add-bar .block-add-prompt svg {
+    fill: #FF8100;
+}
+.block-wrap .block-add-bar a:hover{
+    background-color: #0f76a5;
 }
