@@ -3,6 +3,11 @@ Perch UI Customizations
 
 This project allows a Perch CMS user to change the default dashboard to a different look and feel.
 
+<img src="https://www.coloradoseodesign.com/_images/ui-dashboard.png" alt="Dashboard"/>
+
+<img src="https://www.coloradoseodesign.com/_images/ui-pages.png" alt="Pages"/>
+
+<img src="https://www.coloradoseodesign.com/_images/ui-settings.png" alt="Settings"/>
 
 In order for this project to work you will need to follow these instructions
 
