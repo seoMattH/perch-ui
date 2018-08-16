@@ -10,6 +10,9 @@
 .topbar.user_theme_dark svg{
     fill:white;
 }
+.topbar.user_theme_dark a {
+    color: white;
+}
 .topbar.user_theme_dark a:hover svg{
     fill: #ffb300;
 }
@@ -112,11 +115,14 @@
     background-color: #e0e0e0;
 }
 .smartbar li a.tab-active, 
-.smartbar li button.tab-active,
+.smartbar li button.tab-active{
+    background-color: #efefef;
+    color: #0f76a5;
+    box-shadow: inset 0px 0px 0px 1px #0f76a5;
+    font-weight: bold;
+}
 .smartbar li a.tab-active svg{
-    background-color: #e0e0e0;
-    color: #FF8100;
-    fill: #FF8100;
+    fill: #0f76a5;
 }
 .smartbar li .breadcrumb.tab-active a:last-child{
     background-color: #e0e0e0;
